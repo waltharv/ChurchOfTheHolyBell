@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<head>
+
+	
+
+<audio id="TheHolyHour" src="media/SoundOfTheHolyBell.mp3"  type="audio/mpeg" preload="auto"></audio>
+
+	
+
+<style>
+
+body {background-color:black}
+
+h1 {
+
+	font-size: 400%;
+
+	Arial, Helvetica, sans-serif;
+
+    color: #fcc40b;
+
+	
+
+	}
+
+p	{
+
+	font-size: 200%;
+
+	font-family: "Lucida Console", Monaco, monospace;
+
+	color: #990a42;
+
+	}
+
+p2	{
+
+	font-size: 120%;
+
+	font-family: "Lucida Console", Monaco, monospace;
+
+	color: #4613ba;
+
+	}
+
+</style>
+
+
+
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<meta name="keywords" content="Taco Bell Gordita Holy Holieness The True Church "/>
+
+<meta name="description" content="The one place for true worship" /> 
+
+<title>Church of the Holy Bell</title>
+
+
+
+
+
+<div class="example">
+
+  <h1 align=Center> Church Of the Holy Bell </h1>
+
+
+
+<div style="text-align: center"><img src="images/TheBell.jpg" width="512" /></div>
+
+
+
+  <p align=Center> More information to come.</p>
+
+  
+
+</div>
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+
+<!--
+
+dateFuture = new Date(2015,7,15,20,45,45);
+
+function GetCount(){
+
+        dateNow = new Date();                                                                        //grab current date
+
+        amount = dateFuture.getTime() - dateNow.getTime();                //calc milliseconds between dates
+
+        delete dateNow;
+
+        // time is already past
+
+        if(amount < 0){
+
+                document.getElementById('countbox').innerHTML="Now!";
+
+        }
+
+        // date is still good
+
+        else{
+
+                days=0;hours=0;mins=0;secs=0;out="";
+
+                amount = Math.floor(amount/1000);//kill the "milliseconds" so just secs
+
+                days=Math.floor(amount/86400);//days
+
+                amount=amount%86400;
+
+                hours=Math.floor(amount/3600);//hours
+
+                amount=amount%3600;
+
+                mins=Math.floor(amount/60);//minutes
+
+                amount=amount%60;
+
+                secs=Math.floor(amount);//seconds
+
+                if(days != 0){out += days +" day"+((days!=1)?"s":"")+", ";}
+
+                if(days != 0 || hours != 0){out += hours +" hour"+((hours!=1)?"s":"")+", ";}
+
+                if(days != 0 || hours != 0 || mins != 0){out += mins +" minute"+((mins!=1)?"s":"")+", ";}
+
+                out += secs +" seconds";
+
+                document.getElementById('countbox').innerHTML=out;
+
+                setTimeout("GetCount()", 1000);
+
+        }
+
+		if (new Date().getMinutes() == 0) {
+
+		document.getElementById('TheHolyHour').play();
+
+		}
+
+}
+
+window.onload=function(){GetCount();}//call when everything has loaded
+
+//-->
+
+</script>
+
+<p2>
+
+<div id="countbox" style="text-align: center"></div>
+
+</p2>
+
+
+
+</head>
+
+ 
+
+
+
+
+
+ 
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+
+<!--
+
+<script>
+
+if (new Date().getMinutes() == 31) {
+
+    document.getElementById('TheHolyHour').play();
+
+}
+
+//-->
+
+</script>
+
+
+
+<audio>
+
+	<audio autoplay> 
+
+	<source src="media/SoundOfTheHolyBell.mp3" type="audio/mpeg">
+
+Your browser does not support the audio element.
+
+</audio> 
